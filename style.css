@@ -1,0 +1,154 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:hsl(257, 40%, 49%);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.huddle_card{
+    /* border: 2px solid aqua; */
+    width: 90%;
+    margin: 0 auto;
+}
+.logo_section{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+.icon-chat:before {
+    content: "\e900";
+    color: white;
+    font-size: 20px;
+  }
+
+.site_name{
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.mockup_image{
+    
+    /* border: 2px solid red; */
+    margin-top: 40px;
+}
+.mockup{
+    width: 95%;
+}
+
+.huddle_info{
+    /* border: 2px solid red; */
+    margin:0 auto;
+    margin-top: 4em;
+    text-align: center;
+    color: white;
+    width: 95%;
+}
+.huddle_info_title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.huddle_info_desc{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.reg_button{
+    margin-top: 1.5em;
+    
+}
+
+.btn{
+    background: white;
+    color:hsl(257, 40%, 49%);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 3% 25%;
+    border-radius: 100px;
+    box-shadow: 2px 3px 5px hsl(257, 52%, 32%);
+}
+
+.social_icons{
+    /* border: 2px solid red; */
+    margin-top: 3.5em;
+    text-align: center;
+}
+
+.fab{
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 100%;
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.fa-facebook-f{
+    padding: 2% 3%;
+}
+
+footer{
+    margin-top: 5em;
+    text-align: center;
+}
+.attribution{
+    color: hsl(300, 69%, 71%);
+    font-weight: 400;
+}
+.attribution a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width:376px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+        background-size: cover;
+    }
+    .huddle_card{
+        margin-top: 2em;
+    }
+    .site_name{
+        font-size: 25px;
+    }
+    .section--flex{
+        display: flex;
+    }
+    
+    .huddle_info{
+        text-align: left;
+        width: 40%;
+        /* border: 2px solid red; */
+    }
+    .huddle_info_title{
+        font-size: 30px;
+        width: 90%;
+    }
+    .huddle_info_desc{
+        width: 95%;
+    }
+    .reg_button{
+        margin-top: 2em;   
+    }
+    .btn{
+        padding: 2% 10%;
+        font-size: 15px;
+    }
+    .social_icons{
+        text-align: end;
+    }
+    .fab{
+        padding: 1%;
+    }
+    .fa-facebook-f{
+        padding: 1% 1.2%;
+    }
+}
